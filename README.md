@@ -29,7 +29,7 @@ Example: 1.7.16 \
 
 * **OLS_REPO_URL** \
 OpenLiteSpeed RPM repository url \
-Example: http://rpms.litespeedtech.com/centos/litespeed-repo-1.1-1.el8.noarch.rpm \
+Example: http://rpms.litespeedtech.com/centos/litespeed-repo-1.1-1.el8.noarch.rpm
 
 * **LSPHP_VERSION** \
 LSPHP version \
