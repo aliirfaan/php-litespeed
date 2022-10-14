@@ -67,12 +67,12 @@ We will copy files from container to the host before mouting volumes. Make sure 
 * <path_on_host>\docker-compose\lsws\admin
 * <path_on_host>\docker-compose\lsws\<lsphp_version>\etc
 
-#### Copy openlitespeed admin configurations
+#### Copy OpenLiteSpeed admin configurations
 ```
 $ docker container cp <container_name>:/usr/local/lsws/admin/conf <path_on_host>\docker-compose\lsws\admin\conf
 ```
 
-#### Copy openlitespeed configurations
+#### Copy OpenLiteSpeed configurations
 ```
 $ docker container cp <container_name>:/usr/local/lsws/conf <path_on_host>\docker_tutorial\docker-compose\lsws\conf
 ```
@@ -119,12 +119,12 @@ services:
 $ docker-compose -f docker-compose.yml up -d
 ```
 
-### Change openlitspeed admin password
+### Change OpenLiteSpeed admin password
 ```
 docker exec -it <container-name> /usr/local/lsws/admin/misc/admpass.sh
 ```
 
-### Access openlitspeed admin on your host
+### Access OpenLiteSpeed admin on your host
 [OpenLiteSpeed admin](http://localhost:7080) and enter the username and password specified in the last step.
 
 
