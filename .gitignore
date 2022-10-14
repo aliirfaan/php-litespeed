@@ -1,0 +1,5 @@
+.env
+.env.sample
+docker-compose/
+sites/
+docker-compose.*
