@@ -1,4 +1,4 @@
-# Rocky Linux based openlitespeed PHP docker container
+# Rocky Linux based OpenLiteSpeed PHP docker container
 
 Install an OpenLiteSpeed container with lsphp in Rocky Linux.
 
