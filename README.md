@@ -5,6 +5,13 @@ Install an OpenLiteSpeed container with lsphp in Rocky Linux.
 ## Prerequisites
 *  [Install Docker](https://www.docker.com/)
 
+## Modules/packages
+* mysql client
+* supervisor
+
+## LSPHP extensions
+mysqlnd, opcache, curl, redis, memcached, intl, bcmath, ctype, fileinfo, mbstring, gd, pdo, zip, xml, ldap
+
 ## Environment variables
 
 * **TZ** \
